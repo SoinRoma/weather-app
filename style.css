@@ -83,3 +83,7 @@ html, body {
     -ms-user-select: none;       /* Internet Explorer/Edge */
     user-select: none;
 }
+
+input::placeholder{
+    color: white;
+}
