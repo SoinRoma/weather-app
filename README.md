@@ -16,3 +16,4 @@ npm start
 ```
 npm run package
 ```
+ Полученное приложение будет в папке out
