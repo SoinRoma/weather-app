@@ -8,7 +8,7 @@ npx create-electron-app app-name
 В начале установить все зависимости 
 
 ```
-npm init
+npm install
 ```
 
 Для запуска приложения
