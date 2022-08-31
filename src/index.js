@@ -1,5 +1,5 @@
-const {app, BrowserWindow} = require('electron')
-const path = require('path')
+const {app, BrowserWindow} = require('electron');
+const path = require('path');
 
 function createWindow () {
 
@@ -8,16 +8,16 @@ function createWindow () {
     height: 600,
     resizable: false,
     autoHideMenuBar: true, //в видео я ошибся, нужно прописать true
-    icon: 'src/hot.ico',
-  })
+    icon: 'src/images/hot.ico',
+  });
 
-  mainWindow.loadFile('./src/index.html')
+  mainWindow.loadFile('./src/index.html');
 
   // mainWindow.webContents.openDevTools()
 }
 
 app.whenReady().then(() => {
-  createWindow()
+  createWindow();
 
   app.on('activate', function () {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
@@ -25,5 +25,5 @@ app.whenReady().then(() => {
 })
 
 app.on('window-all-closed', function () {
-  if (process.platform !== 'darwin') app.quit()
+  if (process.platform !== 'darwin') app.quit();
 })

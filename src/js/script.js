@@ -1,8 +1,8 @@
-let tempBlock = document.querySelector('#temp');
-let cityBlock = document.querySelector('#city');
-let update_date = document.querySelector('#update-date');
-let local_date = document.querySelector('#local-date');
-let searchInp = document.querySelector('.search');
+const tempBlock = document.querySelector('#temp');
+const cityBlock = document.querySelector('#city');
+const update_date = document.querySelector('#update-date');
+const local_date = document.querySelector('#local-date');
+const searchInp = document.querySelector('.search');
 
 setInterval(() => {
     let date = new Date;
