@@ -1,7 +1,7 @@
 {
   "name": "main-electronjs",
   "productName": "main-electronjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
@@ -11,8 +11,11 @@
     "publish": "electron-forge publish",
     "lint": "eslint src --color"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "weather",
+    "electron"
+  ],
+  "author": "Soin Roman",
   "license": "MIT",
   "config": {
     "forge": {
@@ -55,12 +58,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^5.2.4",
-    "electron-prebuilt-compile": "8.2.0",
-    "eslint": "^3",
-    "eslint-config-airbnb": "^15",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jsx-a11y": "^5",
-    "eslint-plugin-react": "^7"
+    "electron-prebuilt-compile": "8.2.0"
   },
   "repository": {
     "type": "git",
